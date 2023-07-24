@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "468383821013",
+    "project_id": "khalid-projects",
+    "storage_bucket": "khalid-projects.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468383821013:android:aec1f4b30a1fd47c2a465c",
+        "android_client_info": {
+          "package_name": "com.example.khalidprojects"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468383821013-ko2difdf148s5nfg53cv3f0a97jr6u70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khalidprojects",
+            "certificate_hash": "3039ce695bc472b35114c30a6e167e9090156dc5"
+          }
+        },
+        {
+          "client_id": "468383821013-qe9la96dcs0l467vfqsrbc4bij3r9pt8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZbwDbEg0x1O5FGcsXQFFOP7ny1tlC0-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468383821013-qe9la96dcs0l467vfqsrbc4bij3r9pt8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "468383821013-ee30431glk8bs11l2o1m022kn0lk75ep.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.khalidprojects"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

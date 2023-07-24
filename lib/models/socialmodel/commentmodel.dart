@@ -1,0 +1,30 @@
+class CommentModel{
+  String?useruid;
+  String?postuid;
+  String?name;
+  String?photo;
+  String?text;
+  CommentModel({
+    this.useruid,
+    this.postuid,
+    this.name,
+    this.photo,
+    this.text,
+  });
+  CommentModel.fromjson(Map<String,dynamic>json){
+    useruid=json['useruid'];
+    postuid=json['postuid'];
+    name=json['name'];
+    photo=json['photo'];
+    text=json['text'];
+  }
+  Map<String, dynamic>ToMap(){
+    return{
+      'useruid':useruid,
+      'postuid':postuid,
+      'name':name,
+      'photo':photo,
+      'text':text,
+    };
+  }
+}
